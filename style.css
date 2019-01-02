@@ -1,0 +1,51 @@
+a{
+text-decoration: none;
+}
+html, body{
+margin: 0;
+padding: 0;
+}
+ul, dl, dt, dd, li{
+padding: 0;
+margin: 0;
+}
+.clearfix:after {
+ content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}  
+@media screen and (max-width: 639px){
+#first{
+  display: block;
+}
+#second{
+  display: none;
+}
+#third{
+display: none;
+}
+}
+@media screen and (min-width: 640px) and (max-width: 1049px) {
+#first{
+  display: none;
+}
+#second{
+  display: block;
+}
+#third{
+display: none;
+}
+}
+@media screen and (min-width: 1050px){
+#first{
+display: none;
+}
+#second{
+display: none;
+}
+#third{
+display: block;
+}
+}

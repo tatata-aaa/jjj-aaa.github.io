@@ -1,0 +1,287 @@
+.index2 h2{
+height: 20px;
+font-size: 18px;
+margin: 30px auto 30px;
+width: auto;
+text-align: center;
+}
+@media screen and (max-width: 410px){
+#five{
+display: block;
+}
+.block{
+width: 100%;
+padding-right: 50%;
+height: 15px;
+}
+}
+@media screen and (min-width: 411px){
+
+}
+@media screen and (min-width: 411px) and (max-width: 639px){
+time{
+margin-top: -20px !important;
+}
+.block{
+width: auto;
+height: 0px;
+}
+}
+@media screen and (max-width: 480px){
+.fo1 {
+    text-align: center;
+    height: 200px;
+}
+}
+@media screen and (max-width: 639px){
+
+
+.fo1 .kiko ul.child1 li{
+background: #6c3a24;
+width: 33.333%;
+float: left;
+z-index: 1000;
+}
+.fo1 .kiko ul.child1 li a{
+padding-right: 0;
+padding-left: 5%;
+}
+.fo1 .kiko ul.child1{
+display: block;
+width: 90%;
+margin-left: 5%;
+}
+.kiko{
+list-style: none;
+}
+.kiko a h2{
+height: 20px;
+font-size: 20px;
+margin: 30px auto 10px;
+width: auto;
+text-align: center;
+color: #6c3a24;
+}
+.child1 li:nth-of-type(8), .child1 li:nth-of-type(9){
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+}
+.child1 li{
+ height: 41px;
+ padding-top: 11px;
+ box-sizing: border-box;
+}
+.child1 li{
+background: #B1865B !important;
+}
+.child1 li:nth-of-type(1),.child1 li:nth-of-type(3),.child1 li:nth-of-type(5),.child1 li:nth-of-type(7),.child1 li:nth-of-type(9){
+background: #FFB432 !important;
+}
+.child1 li a{
+font-size: 18px;
+color: #fff;
+text-shadow: 2px 2px 2px #ddd;
+}
+.child1 li:hover{
+ background: #6c3a24 !important;
+}
+}
+@media screen and (min-width: 640px){
+.kiko{
+display: none;
+}
+}
+@media screen and (min-width: 1050px){
+/*index2 1050px-------------------------------------------------------------------------*/
+.index2{
+max-width: 1050px;
+margin: 0 auto;
+
+}
+.fo1{
+float: left;
+}
+.bo2{
+width: 762px;
+float: right;
+}
+.zo2 h3{
+margin-top: 30px;
+}
+.bo2 li:nth-of-type(1) .zo2 h3{
+ margin-top: 5px;
+}
+}
+@media screen and (max-width: 1039px) and (min-width: 640px){
+.zo1 {
+    margin-top: 0px;
+}
+.bo2 li:nth-of-type(1) .zo2 h3{
+ margin-top: -10px;
+}
+}
+@media screen and (max-width: 639px){
+.zo1 {
+ margin-top: 0px;
+}
+}
+@media screen and (max-width: 639px) and (min-width: 401px){
+time {
+    float: left;
+    display: inline-block;
+    padding: 5px 0px 5px 20px;
+    margin-top: -20px;
+}
+}
+/****************************blog.html***********************************************************************************************************************************************************************************************************************/
+.index20 h2{
+height: 20px;
+font-size: 18px;
+margin: 30px auto 30px;
+width: auto;
+text-align: center;
+}
+@media screen and (min-width: 1050px){
+.fo1{
+ float: left;
+}
+.yo1{
+float: right;
+width: 715px;
+background: #f0e680;
+height: 900px;
+}
+.index20{
+ max-width: 1050px;
+ margin: 0 auto;
+}
+.index20 h1{
+ width: 715px;
+ margin: 0px auto 30px;
+ height: 38px;
+ background: url(../img/go.2.png);
+ font-size: 20px;
+ padding-top: 9px;
+ text-align: center;
+}
+time{
+ font-size: 14px;
+ width: 572px;
+ margin: 0 auto 10px;
+ display: block;
+ padding-left: 0px;
+}
+.yo2{
+ width: 572px;
+ height: 206px;
+ margin: 0 auto 50px;
+ position: relative;
+}
+.yo2 img{
+ position: absolute;
+ top: -210px;
+ left: -226px;
+ clip: rect( 206px, 798px, 487px, 226px );
+
+}
+.yo3{
+ width: 618px;
+ height: 335px;
+ background: ;
+ margin: 0px auto 50px;
+ padding-top: 50px;
+}
+}
+@media screen and (min-width: 640px) and (max-width: 1049px){
+.yo1{
+ width: 90%;
+ margin-left: 5%;
+ background: #f0e680;
+ max-width: 715px;
+ margin: 0 auto;
+ height: 1000px;
+}
+.index20 h1{
+ width: 100%;
+ margin: 0px auto 30px;
+ height: 38px;
+ background: url(../img/go.2.png);
+ font-size: 20px;
+ padding-top: 9px;
+ text-align: center;
+}
+time{
+ font-size: 14px;
+ width: 550px;
+ margin: 0 auto 10px;
+ display: block;
+ padding-left: 15px;
+}
+.yo2{
+ width: 550px;
+ height: 206px;
+ margin: 0 auto 50px;
+ position: relative;
+}
+.yo2 img{
+ position: absolute;
+ top: -210px;
+ left: -236px;
+ clip: rect( 206px, 787px, 487px, 237px );
+
+}
+.yo3{
+ width: 550px;
+ height: 500px;
+ background: ;
+ margin: 0px auto 50px;
+ padding-top: 50px;
+}
+}
+@media screen and (max-width: 639px){
+.yo1{
+ width: 90%;
+ margin-left: 5%;
+ margin: 0 auto;
+ height: 1000px;
+}
+.index20 h1{
+ width: 100%;
+ margin: 0px auto 30px;
+ height: 38px;
+ background: url(../img/go.2.png);
+ font-size: 20px;
+ padding-top: 9px;
+ text-align: center;
+}
+time{
+ font-size: 14px;
+
+ margin: 0 auto 10px;
+ 
+ padding-left: 15px;
+}
+.yo2{
+ width: 100%;
+ height: 300px;
+ margin: 0 auto 50px;
+ position: relative;
+}
+.yo2 img{
+ position: absolute;
+ top: -150px;
+ left: 50%;
+ margin-left: -150px;
+ clip: rect( 206px, 300px, 487px, 0px );
+
+
+}
+.yo3{
+ width: 100%;
+ height: 500px;
+ background: ;
+ margin: 0px auto 50px;
+ padding-top: 50px;
+}
+}

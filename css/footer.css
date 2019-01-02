@@ -1,0 +1,558 @@
+@media screen and (max-width: 639px){
+.salon_list h2{
+display: block;
+text-align: center;
+margin: 30px 0;
+}
+.salon_list1{
+ width: 90%;
+ margin-left: 5%;
+ height: 120vw;
+}
+.salon_list1 li{
+ width: 50%;
+ height: 30vw;
+ box-sizing: border-box;
+ float: left;
+ }
+ 
+ .salon_list1 li a img{
+ padding: 5%;
+ width: 90%;
+ height: 28vw;
+ z-index: -1;
+ }
+ .salon_list .mono{
+  position: relative;
+ }
+.salon_list .mono a span{
+ z-index: 1000;
+ color: #fff;
+ position: absolute;
+ top: 60%;
+ left: 25%;
+ font-size: 3vw;
+ padding: 1vw;
+ padding-left: 2vw;
+ width: 45%;
+ border: 2px solid #fff;
+ background: #ffb432;
+}
+
+.salon_list .mono a span:hover{
+ background: #ffa500;
+ color: #B1865B;
+}
+.footer1 .logo2 img{
+width: 100%;
+height: auto;
+}
+.footer .logo2{
+ width: 86%;
+ margin: 30px auto;
+}
+.menu2{
+width: 85%;
+margin: 0 auto 30px;
+height: 160px;
+}
+.menu2 dt{
+ margin: 0;
+ padding: 0;
+ width: 100%;
+ padding: 5px;
+ box-sizing: border-box;
+ background: #eb8400;
+ text-align: center;
+}
+.menu2 dt{
+font-size: 15px;
+ color: #fff;
+ font-weight: bold;
+}
+.menu2 dd{
+ margin: 0;
+ padding: 0;
+ width: 33.33%;
+ box-sizing: border-box;
+ float: left;
+ padding: 5px;
+ background: #b1865b;
+ text-align: center;
+}
+.menu2 dd:nth-of-type(1),.menu2 dd:nth-of-type(3),.menu2 dd:nth-of-type(5),.menu2 dd:nth-of-type(7),.menu2 dd:nth-of-type(9){
+ background: #ffb432;
+}
+.menu2 dd:hover{
+ background: #eb8400;
+ transition: all 1s;
+}
+.menu2 dd.current{
+ background: #eb8400;
+}
+.menu2 dd a{
+ font-size: 15px;
+ color: #fff;
+ font-weight: bold;
+}
+.menu3{
+width: 85%;
+margin: 0 auto 30px;
+height: 200px;
+}
+.menu3 dt{
+margin: 0;
+ padding: 0;
+ width: 100%;
+ padding: 5px;
+ box-sizing: border-box;
+ background: #eb8400;
+ text-align: center;
+ font-size: 15px;
+ color: #fff;
+ font-weight: bold;
+}
+.menu3 dd{
+ margin: 0;
+ padding: 0;
+ width: 50%;
+ box-sizing: border-box;
+ float: left;
+ padding: 5px;
+ background: #b1865b;
+ text-align: center;
+}
+.menu3 dd a{
+ font-size: 15px;
+ color: #fff;
+ font-weight: bold;
+}
+.menu3 dd:nth-of-type(1),.menu3 dd:nth-of-type(4),.menu3 dd:nth-of-type(5),.menu3 dd:nth-of-type(8){
+ background: #ffb432;
+}
+.menu3 dd:hover{
+ background: #eb8400;
+ transition: all 1s;
+}
+.menu3 dd.current{
+background: #eb8400;
+}
+.menu3 dd:nth-of-type(8) a{
+ color: transparent;
+}
+.menu4{
+ width:  230px;
+margin: 0 auto 30px;
+height: 50px;
+
+}
+.menu4 dt, .menu4 span{
+display: none;
+}
+.menu4 dd i{
+float: left;
+margin-right: 10px;
+color: #b1865b;
+}
+.menu4 dd:nth-of-type(2) i{
+color: #ffb432;
+}
+.menu4 dd i:hover{
+color: #6c3a24;
+
+}
+.footer2{
+width: 100%;
+padding: 50px 0;
+background: #eb8400;
+text-align: center;
+}
+.footer2 small{
+color: #fff;
+}
+.text{
+display: none;
+}
+}
+@media screen and (min-width: 640px) and (max-width: 1049px){
+.daimei{
+position: relative;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.daimei h2{
+height: 20px;
+font-size: 18px;
+color: #6c3a24;
+clear: both;
+position: relative;
+left: 50%;
+margin-left: -55px;
+}
+.salon_list1{
+ width: 90%;
+ margin-left: 5%;
+ height: 50vw;
+ 
+}
+.salon_list1 li{
+ width: 25%;
+ height: 20vw;
+ box-sizing: border-box;
+ float: left;
+ }
+ 
+ .salon_list1 li a img{
+ padding: 5%;
+ width: 90%;
+ height: 20vw;
+ z-index: -1;
+ }
+ .salon_list .mono{
+  position: relative;
+ }
+.salon_list .mono a span{
+ z-index: 1000;
+ color: #fff;
+ position: absolute;
+ top: 60%;
+ left: 25%;
+ font-size: 1.8vw;
+ padding: 0.8vw;
+ border: 2px solid #fff;
+ background: #ffb432;
+}
+.salon_list .mono a span:hover{
+ background: #ffa500;
+ color: #B1865B;
+}
+.footer1 .logo2 img{
+width: 100%;
+height: auto;
+}
+.footer .logo2{
+ width: 40%;
+ margin-left: 7%;
+ float: left;
+ height: 200px;
+}
+.text{
+display: block;
+}
+
+.menu2{
+width: 40%;
+float: right;
+margin-right: 7%;
+margin-left: 6%;
+height: 200px;
+}
+.menu2 dt{
+ margin: 0;
+ padding: 0;
+ width: 100%;
+ padding: 5px;
+ box-sizing: border-box;
+ background: #eb8400;
+ text-align: center;
+}
+.menu2 dt{
+font-size: 15px;
+ color: #fff;
+ font-weight: bold;
+}
+.menu2 dd{
+ margin: 0;
+ padding: 0;
+ width: 33.33%;
+ box-sizing: border-box;
+ float: left;
+ padding: 5px;
+ background: #b1865b;
+ text-align: center;
+}
+.menu2 dd:nth-of-type(1),.menu2 dd:nth-of-type(3),.menu2 dd:nth-of-type(5),.menu2 dd:nth-of-type(7),.menu2 dd:nth-of-type(9){
+ background: #ffb432;
+}
+.menu2 dd:hover{
+ background: #eb8400;
+ transition: all 1s;
+}
+.menu2 dd.current{
+background: #eb8400;
+}
+.menu2 dd a{
+ font-size: 15px;
+ color: #fff;
+ font-weight: bold;
+}
+.menu3{
+width: 40%;
+margin-left: 7%;
+height: 200px;
+float: left;
+}
+.menu3 dt{
+margin: 0;
+ padding: 0;
+ width: 100%;
+ padding: 5px;
+ box-sizing: border-box;
+ background: #eb8400;
+ text-align: center;
+ font-size: 15px;
+ color: #fff;
+ font-weight: bold;
+}
+.menu3 dd{
+ margin: 0;
+ padding: 0;
+ width: 50%;
+ box-sizing: border-box;
+ float: left;
+ padding: 5px;
+ background: #b1865b;
+ text-align: center;
+}
+.menu3 dd a{
+ font-size: 15px;
+ color: #fff;
+ font-weight: bold;
+}
+.menu3 dd:nth-of-type(1),.menu3 dd:nth-of-type(4),.menu3 dd:nth-of-type(5),.menu3 dd:nth-of-type(8){
+ background: #ffb432;
+}
+.menu3 dd:hover{
+ background: #eb8400;
+ transition: all 1s;
+}
+.menu3 dd.current{
+background: #eb8400;
+}
+.menu3 dd:nth-of-type(8) a{
+ color: transparent;
+}
+.menu4{
+ width:  40%;
+ margin-right: 7%;
+ margin-left: 6%;
+margin: 0 auto 30px;
+padding-top: 70px;
+height: 200px;
+float: right;
+
+}
+.menu4 dt, .menu4 span{
+display: none;
+}
+.menu4 dd i{
+float: left;
+margin-right: 10px;
+color: #b1865b;
+}
+.menu4 dd:nth-of-type(2) i{
+color: #ffb432;
+}
+.menu4 dd i:hover{
+color: #6c3a24;
+
+}
+.footer2{
+width: 100%;
+padding: 50px 0;
+background: #eb8400;
+}
+.footer1{
+height: 420px;
+}
+.footer2 small{
+width: 250px;
+color: #fff;
+position: absolute;
+left: 50%;
+margin-left: -125px;
+}
+}
+@media screen and (min-width: 1050px){
+/*footer 1050px--------------------------------------------------------------------*/
+.salon_list h2{
+display: block;
+text-align: center;
+margin: 30px 0;
+}
+.salon_list1{
+ width: 1050px;
+ margin: 0 auto;
+ height: 555px;
+ }
+.salon_list1 li{
+ width: 262.5px;
+ height: 262.5px;
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ float: left;
+ }
+ 
+ .salon_list1 li a img{
+ 
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ padding: 0;
+ margin: 0;
+ }
+ .salon_list .mono{
+  position: relative;
+ }
+.salon_list .mono a span{
+ z-index: 1000;
+ color: #fff;
+ position: absolute;
+ top: 60%;
+ left: 25%;
+ font-size: 18px;
+ padding: 7px;
+ border: 2px solid #fff;
+ background: #ffb432;
+}
+.salon_list .mono a span:hover{
+ background: #ffa500;
+ color: #B1865B;
+}
+.footer1 {
+width: 1050px;
+margin: 0 auto;
+padding-top: 80px;
+margin-top: 30px;
+}
+.footer1 .logo2 img{
+width: 100%;
+height: auto;
+}
+.footer .logo2{
+ width: 300px;
+ margin-left: 7%;
+ float: left;
+ height: 200px;
+}
+.text{
+display: block;
+margin-top: 100px;
+}
+.menu2{
+ width: 150px;
+ float: left;
+ margin-left: 80px;
+}
+.menu2 dt{
+text-align: center;
+color: #fff;
+padding: 10px;
+height: 18px;
+background: #ffb432;
+margin-bottom: 30px;
+margin-top: -15px;
+}
+.menu2 dd{
+margin: 0;
+padding: 0;
+text-align: center;
+
+}
+.menu2 dd a{
+color: #ffa500;
+font-weight: bold;
+}
+/*.menu2 dd:hover{
+color: #fff;
+font-weight: bold;
+background: #eb8400;
+}*/
+.menu2 dd a:hover{
+color: #fff;
+padding: 2px 30px;
+background: #eb8400;
+text-align: center;
+}
+.menu2 dd.current{
+background: #eb8400;
+}
+.menu3{
+ width: 150px;
+ float: left;
+ margin-left: 80px;
+}
+.menu3 dt{
+text-align: center;
+color: #fff;
+padding: 10px;
+height: 18px;
+background: #ffb432;
+margin-bottom: 30px;
+margin-top: -15px;
+}
+.menu3 dd{
+margin: 0;
+padding: 0;
+text-align: center;
+
+}
+.menu3 dd a{
+color: #ffa500;
+font-weight: bold;
+}
+
+.menu3 dd a:hover{
+color: #fff;
+padding: 2px 30px;
+font-weight: bold;
+background: #eb8400;
+}
+.menu3 dd.current{
+background: #eb8400;
+}
+.menu4{
+ width: 100px;
+ float: left;
+ margin-left: 100px;
+}
+.menu4 dt{
+text-align: center;
+color: #fff;
+padding: 10px;
+height: 18px;
+background: #ffb432;
+margin-bottom: 30px;
+margin-top: -15px;
+}
+.menu4 dd{
+margin: 0;
+padding: 0;
+text-align: center;
+
+}
+.menu4 dd a{
+color: #ffa500;
+}
+.menu4 dd a span{
+display: none;
+}
+.menu4 dd a:hover{
+color: #b1865b;
+padding: 5px;
+}
+.footer3{
+height: 450px;
+background: #f0e680;
+}
+.footer2{
+width: 100%;
+padding: 50px 0;
+background: #eb8400;
+text-align: center;
+}
+.footer2 small{
+color: #fff;
+}
+}

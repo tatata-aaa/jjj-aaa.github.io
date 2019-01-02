@@ -1,0 +1,511 @@
+.ao30{
+display: none;
+}
+.index8 h2{
+height: 20px;
+font-size: 18px;
+margin: 30px auto;
+width: auto;
+text-align: center;
+}
+.index8{
+margin-bottom: 50px;
+}
+@media screen and (max-width: 480px){
+.go1-1{
+height: 200px !important;
+}
+}
+@media screen and (max-width: 639px){
+/*.go3 639px--------------------------------------------------------------------*/
+.go3-1{
+height: 455px;
+width: 100%;
+float: left;
+}
+.go3{
+width: 212px;
+margin: 0 auto;
+}
+.go3 .main{
+width: 212px;
+height: 334px;
+margin: 0 auto;
+}
+.go3 .sub{
+width: 61px;
+height: 61px;
+margin-right: 8px;
+}
+.go3 .sub:nth-of-type(4){
+margin-right: 0px;
+}
+/*.go4-1 639px------------------------------------------------------------------*/
+
+.go4-1 h3{
+ width: 80%;
+
+ background:  url(../img/go.1.png) repeat-x;
+ height: 47px;
+ font-size: 30px;
+ box-sizing: border-box;
+ text-align: center;
+ margin-top: 0px;
+ margin-bottom: 30px;
+ color: #fff;
+ text-shadow: 2px 2px 2px #ddd;
+ margin: 0 auto;
+}
+.go4-1 p{
+text-align: center;
+color: #6c3a24;
+width: 80%;
+margin: 0 auto;
+}
+/*.go4-2 639px------------------------------------------------------------------*/
+.go4-2, .go4-3{
+width: 100%;
+float: left;
+}
+.go4-2{
+padding-left: 10%;
+padding-right: 10%;
+box-sizing: border-box;
+}
+.go4-3{
+padding-left: 10%;
+padding-right: 10%;
+box-sizing: border-box;
+}
+.go4-2 table, .go4-3 table{
+width: 100%;
+}
+.go4-2 h3{
+text-align: center;
+}
+.go4-2 table tr td:nth-of-type(1){
+ height: 41px;
+ width: 31%;
+ background-color: #f0e680;
+ text-align: center;
+ color: #6c3a24;
+ font-weight: bold;
+}
+.go4-2 table tr td:nth-of-type(2){
+height: 41px;
+width: 59%;
+background: #FFB432;
+text-align: center;
+color: #6c3a24;
+font-weight: bold;
+}
+/*.go4-3 639px------------------------------------------------------------------*/
+.go4-3 h3{
+text-align: center;
+}
+.go4-3 table tr td:nth-of-type(1){
+ height: 41px;
+ width: 31%;
+ background-color: #FFB432;
+ text-align: center;
+ color: #6c3a24;
+ font-weight: bold;
+}
+.go4-3 table tr td:nth-of-type(2){
+height: 41px;
+width: 59%;
+background: #f0e680;
+text-align: center;
+color: #6c3a24;
+font-weight: bold;
+}
+/*.go5 639px---------------------------------------------------------------------*/
+
+.go5{
+height: auto;
+}
+}
+/*.go6 639px----------------------------------------------------------------------*/
+@media screen and (max-width: 523px){
+.go6{
+margin-top: 50px;
+margin-left: 10%;
+margin-right: 10%;
+}
+.go6-1{
+width: 200px;
+height: 220px;
+margin: 0 auto;
+box-sizing: border-box;
+}
+.go6-1 img{
+ width: 100%;
+ height: 100%;
+ }
+.go6-2-1{
+box-sizing: border-box;
+width: 80%;
+margin-left: 10%;
+margin-top: 20px;
+}
+
+.go6-2 h3{
+ background:  url(../img/go.1.png) repeat-x;
+ height: 30px;
+ font-size: 20px;
+ box-sizing: border-box;
+ text-align: center;
+ margin-top: 0px;
+ margin-bottom: 30px;
+ color: #fff;
+ text-shadow: 2px 2px 2px #ddd;
+}
+.go6-2 p{
+ 
+}
+}
+@media screen and (min-width: 524px) and (max-width: 639px){
+
+
+.go6{
+margin-top: 50px;
+margin-left: 10%;
+margin-right: 10%;
+}
+.go6-1{
+float: left;
+width: 150px;
+height: 166px;
+margin-right: 15px;
+box-sizing: border-box;
+}
+.go6-1 img{
+ width: 100%;
+ height: 100%;
+ }
+.go6-2-1{
+box-sizing: border-box;
+}
+.go6-2{
+}
+.go6-2 h3{
+ 
+ background:  url(../img/go.1.png) repeat-x;
+ height: 30px;
+ font-size: 20px;
+ box-sizing: border-box;
+ text-align: center;
+ margin-top: 0px;
+ margin-bottom: 30px;
+ color: #fff;
+ text-shadow: 2px 2px 2px #ddd;
+ margin-left: 165px;
+}
+.go6-2 p{
+ 
+}
+}
+@media screen and (min-width: 640px) and (max-width: 1049px){
+/*.go3 640px--------------------------------------------------------------------*/
+.go3-1{
+height: 455px;
+width: 300px;
+float: left;
+}
+.go3{
+width: 212px;
+margin: 0 auto;
+}
+.go3 .main{
+width: 212px;
+height: 334px;
+margin: 0 auto;
+}
+.go3 .sub{
+width: 61px;
+height: 61px;
+margin-right: 8px;
+}
+.go3 .sub:nth-of-type(4){
+margin-right: 0px;
+}
+/*.go4 640px--------------------------------------------------------------------*/
+.go4{
+
+float: right;
+width: 100%;
+margin-left: -300px;
+
+}
+/*.go4-1 640px------------------------------------------------------------------*/
+.go4-1{
+margin-left: 300px;
+height: 455px;
+}
+.go4-1 h3{
+ width: 80%;
+ float: right;
+ background:  url(../img/go.1.png) repeat-x;
+ height: 47px;
+ font-size: 30px;
+ box-sizing: border-box;
+ text-align: center;
+ margin-top: 0px;
+ margin-bottom: 30px;
+ color: #fff;
+ text-shadow: 2px 2px 2px #ddd;
+ margin-left: 5%;
+ margin-right: 15%;
+}
+.go4-1 p{
+text-align: center;
+color: #6c3a24;
+width: 80%;
+margin-left: 5%;
+margin-right: 15%;
+}
+/*.go4-2 640px------------------------------------------------------------------*/
+.go4-2, .go4-3{
+width: 50%;
+float: left;
+}
+.go4-2{
+padding-left: 6%;
+padding-right: 3%;
+box-sizing: border-box;
+}
+.go4-3{
+padding-left: 3%;
+padding-right: 6%;
+box-sizing: border-box;
+}
+.go4-2 table, .go4-3 table{
+width: 100%;
+}
+.go4-2 h3{
+text-align: center;
+}
+.go4-2 table tr td:nth-of-type(1){
+ height: 41px;
+ width: 31%;
+ background-color: #f0e680;
+ text-align: center;
+ color: #6c3a24;
+ font-weight: bold;
+}
+.go4-2 table tr td:nth-of-type(2){
+height: 41px;
+width: 59%;
+background: #FFB432;
+text-align: center;
+color: #6c3a24;
+font-weight: bold;
+}
+/*.go4-3 640px------------------------------------------------------------------*/
+.go4-3 h3{
+text-align: center;
+}
+.go4-3 table tr td:nth-of-type(1){
+ height: 41px;
+ width: 31%;
+ background-color: #FFB432;
+ text-align: center;
+ color: #6c3a24;
+ font-weight: bold;
+}
+.go4-3 table tr td:nth-of-type(2){
+height: 41px;
+width: 59%;
+background: #f0e680;
+text-align: center;
+color: #6c3a24;
+font-weight: bold;
+}
+/*.go5 640px---------------------------------------------------------------------*/
+
+.go5{
+height: 880px;
+}
+/*.go6 640px----------------------------------------------------------------------*/
+.go6-1{
+float: left;
+
+}
+.go6-1{
+width: 178px;
+height: 192px;
+margin-left: 28px;
+margin-right: 28px;
+float: left;
+
+}
+.go6-1 img{
+ width: 100%;
+ height: 100%;
+ 
+}
+.go6-2-1{
+width: 100%;
+margin-left: -238px;
+float: right;
+}
+.go6-2{
+margin-left: 238px;
+}
+.go6-2 h3{
+ width: 80%;
+ margin-right: 15%;
+ margin-left: 5%;
+ background:  url(../img/go.1.png) repeat-x;
+ height: 47px;
+ font-size: 30px;
+ box-sizing: border-box;
+ text-align: center;
+ margin-top: 0px;
+ margin-bottom: 30px;
+ color: #fff;
+ text-shadow: 2px 2px 2px #ddd;
+}
+.go6-2 p{
+ width: 80%;
+ margin-right: 15%;
+ margin-left: 5%;
+}
+}
+@media screen and (min-width: 1050px){
+.go1{
+max-width: 1050px;
+margin: 0 auto;
+height: 1150px;
+
+}
+.go2{
+height: 1000px;
+float: right;
+margin-left: 40px;
+width: 765px;
+padding-top: 18px;
+}
+.go5{
+width: 765px;
+height: 750px;
+
+}
+/*.go3 1050px--------------------------------------------------------------------*/
+.go3{
+height: 700px;
+}
+.go3 .main{
+width: 212px;
+height: 334px;
+}
+.go3 .sub{
+width: 61px;
+height: 61px;
+margin-right: 14px;
+float: left;
+}
+.go3 .sub:nth-of-type(4){
+margin-right: 0px;
+}
+.go3{
+width: 212px;
+float: left;
+}
+/*.go4 1050px--------------------------------------------------------------------*/
+.go4{
+width: 530px;
+float: right;
+margin-left: 15px;
+margin-top: -18px;
+}
+/*.go4-1 1050px------------------------------------------------------------------*/
+.go4-1 h3{
+ width: 530px;
+ float: right;
+ background:  url(../img/go.1.png) repeat-x;
+ height: 47px;
+ font-size: 30px;
+ box-sizing: border-box;
+ text-align: center;
+ margin-top: 0px;
+ margin-bottom: 30px;
+ color: #fff;
+ text-shadow: 2px 2px 2px #ddd;
+}
+.go4-1 p{
+text-align: center;
+color: #6c3a24;
+}
+/*.go4-2 1050px------------------------------------------------------------------*/
+.go4-2 h3{
+text-align: center;
+}
+.go4-2 table tr td:nth-of-type(1){
+ height: 41px;
+ width: 164px;
+ background-color: #f0e680;
+ text-align: center;
+ color: #6c3a24;
+ font-weight: bold;
+}
+.go4-2 table tr td:nth-of-type(2){
+height: 41px;
+width: 362px;
+background: #FFB432;
+text-align: center;
+color: #6c3a24;
+font-weight: bold;
+}
+/*.go4-3 1050px------------------------------------------------------------------*/
+.go4-3 h3{
+text-align: center;
+}
+.go4-3 table tr td:nth-of-type(1){
+ height: 41px;
+ width: 164px;
+ background-color: #FFB432;
+ text-align: center;
+ color: #6c3a24;
+ font-weight: bold;
+}
+.go4-3 table tr td:nth-of-type(2){
+height: 41px;
+width: 362px;
+background: #f0e680;
+text-align: center;
+color: #6c3a24;
+font-weight: bold;
+}
+/*.go6 1050px--------------------------------------------------------------------*/
+.go6{
+margin-left: 6%;
+}
+.go6-1{
+width: 178px;
+height: 192px;
+float: left;
+}
+.go6-1 img{
+ width: 100%;
+ height: 100%;
+ 
+}
+.go6-2{
+width: 530px;
+float: right;
+}
+.go6-2 h3{
+ width: 530px;
+ float: right;
+ background:  url(../img/go.1.png) repeat-x;
+ height: 47px;
+ font-size: 30px;
+ box-sizing: border-box;
+ text-align: center;
+ margin-top: 0px;
+ margin-bottom: 30px;
+ color: #fff;
+ text-shadow: 2px 2px 2px #ddd;
+}
+}

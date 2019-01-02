@@ -1,0 +1,68 @@
+.ao30{
+display: none;
+}
+.index10 h2{
+height: 20px;
+font-size: 18px;
+margin: 50px auto ;
+width: auto;
+text-align: center;
+}
+@media screen and (min-width: 1050px){
+.wo1{
+ max-width: 1050px;
+ margin: 30px auto 0px;
+ height: 1000px;
+}
+.wo2{
+display: none;
+}
+.wo3{
+display: none;
+}
+
+}
+@media screen and (min-width: 640px) and (max-width: 1049px){
+.wo1{
+ display: none;
+}
+.wo2{
+display: block;
+width: 640px;
+margin: 0 auto;
+height: 950px;
+margin: 50px auto 0px;
+}
+.wo3{
+display: none;
+}
+.index10 h2{
+ margin-top: 100px;
+}
+}
+@media screen and (max-width: 639px){
+.wo1{
+ display: none;
+}
+.wo2{
+display: none;
+}
+.wo3{
+display: block;
+width: 310px;
+margin: 0 auto;
+height: 1000px;
+margin: 50px auto 0px;
+}
+}
+.index10 a{
+ box-shadow: 2px 2px 2px #ddd;
+ box-sizing: border-box;
+}
+.index10 a:hover{
+ box-shadow: 4px 4px 4px #ddd;
+ box-sizing: border-box;
+ margin-left: -3px;
+ margin-top: -3px;
+ transition: all 1s;
+}

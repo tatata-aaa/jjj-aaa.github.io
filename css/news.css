@@ -1,0 +1,464 @@
+.index5  h2{
+height: 20px;
+font-size: 18px;
+margin: 30px auto 30px;
+width: auto;
+text-align: center;
+}
+.clone:after{
+margin-bottom: 100px;
+}
+@media screen and (max-width: 400px){
+#four{
+ display: block;
+}
+}
+@media screen and (max-width: 639px) and (min-width: 481px){
+.fo1 {
+    text-align: center;
+    height: 200px;
+}
+}
+@media screen and (min-width: 401px){
+#four{
+display: none;
+}
+}
+.tab-content input[type="radio"] {
+  display: none;
+}
+
+
+
+.tab-content > .tab-box > div {
+  display: none;
+}
+
+#tab1:checked ~ .tab-box > #tabView1 {
+  display: block;
+}
+
+#tab2:checked ~ .tab-box > #tabView2 {
+  display: block;
+}
+
+#tab3:checked ~ .tab-box > #tabView3 {
+  display: block;
+}
+.ao30{
+display: none;
+}
+/*装飾　639px*********************************************************************/
+@media screen and (max-width: 639px){
+.index5  h2{
+height: 20px;
+font-size: 18px;
+margin: 60px auto 30px;
+width: auto;
+text-align: center;
+}
+.tab-content{
+  max-width: 824px;
+  margin: 0 auto;
+  width: 100%;
+}
+.tab-content .doo{
+ width: 28%;
+ height: 41px;
+ margin-right: 3.0%;
+}
+.tab-content label:nth-of-type(1){
+ margin-left: 3.0%;
+}
+.tab-content label {
+  display: inline-block;
+  padding: 10px 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  text-shadow: 2px 2px 2px #ddd;
+  color: #fff;
+  background-color: #B1865B;
+  cursor: pointer;
+  
+  border-radius: 0px 0px 0 0;
+  box-sizing: border-box;
+}
+
+.tab-content input[type="radio"]:checked + label {
+  color: #FFF;
+  background-color: #ffb432;
+  box-shadow: inset -1px 1px 2px #6c3a24;
+}
+.tab-content label:hover{
+ color: #FFF;
+  background-color: #ffa500;
+}
+.tab-content .tab-box {
+  max-width: 824px;
+  width: 100%;
+  
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+
+.tab-content > .tab-box > div {
+  display: none;
+}
+
+#tab1:checked ~ .tab-box > #tabView1 {
+  display: block;
+}
+
+#tab2:checked ~ .tab-box > #tabView2 {
+  display: block;
+}
+
+#tab3:checked ~ .tab-box > #tabView3 {
+  display: block;
+}
+.zo1{
+  width: 40%;
+  float: left;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  
+}
+.zo1 img{
+ width: 100%;
+ height: auto;
+}
+.zo2{
+
+
+height: 221px;
+}
+
+.zo2 h3{
+ margin: 0 0 0px;
+ height: 30px;
+ background: #B1865B;
+ margin-top: 0px;
+ text-align: left;
+ font-size: 15px;
+ padding: 5px 10px 10px;
+ border-radius: 5px;
+ float: left;
+ margin-left: 10px;
+ box-sizing: border-box;
+}
+time,.zo2-1 p{
+color: #6c3a24;
+padding-left: 15px;
+margin: 0px;
+}
+time{
+float: left;
+display: inline-block;
+padding: 5px 0px 5px 20px;
+
+}
+.zo2-1 p{
+float: none;
+}
+.bo2 ul li:nth-of-type(1) a .zo2 h3{
+margin-top: -20px;
+}
+/*titi 639px*********************************************************************/
+.titi{
+ 
+ width: 100%;
+}
+.titi img{
+margin-left: 5%;
+width: 90%;
+}
+.titi h1 .parent{
+font-size: 20px;
+}
+.titi h1{
+ margin: 50px 0 20px;
+ color: #6c3a24;
+ width: 90%;
+ margin-left: 5%;
+}
+.titi h1 .child{
+color: #fff;
+font-size: 13px;
+padding: 5px 13px;
+background: #ffb500;
+border-radius: 13px;
+float: right;
+margin-top: 15px;
+}
+.titi time{
+ width: 90%;
+ margin-left: 5%;
+ margin-top: -30px;
+}
+.titi p{
+ width: 90%;
+ margin-left: 5%;
+}
+}
+/*装飾　640px*********************************************************************/
+@media screen and (min-width: 640px) and (max-width: 1049px){
+.index5  h2{
+height: 20px;
+font-size: 18px;
+margin: 60px auto 30px;
+width: auto;
+text-align: center;
+}
+.tab-content{
+  max-width: 824px;
+  margin: 0 auto;
+  width: 100%;
+}
+.tab-content .doo{
+ width: 28%;
+ height: 41px;
+ margin-right: 3.0%;
+}
+.tab-content label:nth-of-type(1){
+ margin-left: 3.0%;
+}
+.tab-content label {
+  display: inline-block;
+  padding: 10px 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  text-shadow: 2px 2px 2px #ddd;
+  color: #fff;
+  background-color: #B1865B;
+  cursor: pointer;
+  
+  border-radius: 0px 0px 0 0;
+  box-sizing: border-box;
+}
+
+.tab-content input[type="radio"]:checked + label {
+  color: #FFF;
+  background-color: #ffb432;
+  box-shadow: inset -1px 1px 2px #6c3a24;
+}
+.tab-content label:hover{
+ color: #FFF;
+  background-color: #ffa500;
+}
+.tab-content .tab-box {
+  max-width: 824px;
+  width: 100%;
+  
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+
+.tab-content > .tab-box > div {
+  display: none;
+}
+
+#tab1:checked ~ .tab-box > #tabView1 {
+  display: block;
+}
+
+#tab2:checked ~ .tab-box > #tabView2 {
+  display: block;
+}
+
+#tab3:checked ~ .tab-box > #tabView3 {
+  display: block;
+}
+.zo1{
+  width: 28%;
+  float: left;
+  margin-left: 3%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  height: 226px;
+}
+.zo1 img{
+ width: 100%;
+ height: auto;
+}
+.zo2{
+float: right;
+width: 63%;
+margin-right: 3%;
+margin-left: 3%;
+margin-right:3%;
+margin-top: -15px; 
+height: 221px;
+}
+
+.zo2 h3{
+ margin: 0 0 20px;
+ height: 30px;
+ background: url(../img/go.1.png) repeat-x;
+ background-size: 100% 30px;
+ margin-top: 15px;
+ text-align: left;
+ font-size: 15px;
+ padding-top: 7px;
+ padding-left: 15px;
+ color: #fff;
+}
+time,.zo2-1 p{
+color: #6c3a24;
+padding-left: 15px;
+margin: 0px;
+}
+.zo2 h3.pato{
+background: url(../img/go.2.png) repeat-x;
+background-size: 100% 30px;
+}
+/*titi 640px*********************************************************************/
+.titi{
+ max-width: 824px;
+ width: 95%;
+ margin: 0 auto;
+}
+.titi img{
+max-width: 824px;
+width: 100%;
+}
+.titi h1 .parent{
+float: left;
+font-size: 25px;
+}
+.titi h1{
+ margin: 50px 0 20px;
+ color: #6c3a24;
+}
+.titi h1 .child{
+float: right;
+color: #fff;
+font-size: 15px;
+padding: 10px 20px;
+background: #ffb500;
+border-radius: 15px;
+}
+}
+/*装飾 1050px******************************************************************************/
+@media screen and (min-width: 1050px){
+.tab-content label {
+  display: inline-block;
+  padding: 10px 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 2px 2px 2px #ddd;
+  color: #fff;
+  background-color: #B1865B;
+  cursor: pointer;
+  
+  border-radius: 0px 0px 0 0;
+  box-sizing: border-box;
+}
+
+.tab-content input[type="radio"]:checked + label {
+  color: #FFF;
+  background-color: #ffb432;
+  box-shadow: inset -1px 1px 2px #6c3a24;
+}
+.tab-content label:hover{
+ color: #FFF;
+  background-color: #ffa500;
+}
+.tab-content .tab-box {
+  width: 824px;
+  
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.tab-content .doo{
+ width: 230px;
+ height: 41px;
+ margin-right: 27px;
+}
+.tab-content label:nth-of-type(1){
+ margin-left: 29px;
+}
+.tab-content{
+  width: 824px;
+  margin: 0 auto;
+}
+.tab-content > .tab-box > div {
+  display: none;
+}
+
+#tab1:checked ~ .tab-box > #tabView1 {
+  display: block;
+}
+
+#tab2:checked ~ .tab-box > #tabView2 {
+  display: block;
+}
+
+#tab3:checked ~ .tab-box > #tabView3 {
+  display: block;
+}
+.zo1{
+  width: 236px;
+  float: left;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  height: 221px;
+}
+.zo2{
+float: right;
+width: 100%;
+margin-left: -251px;
+height: 221px;
+}
+.zo2-1{
+margin-left: 251px;
+}
+.zo2 h3{
+ margin: 0 0 20px;
+ height: 40px;
+ background: url(../img/go.1.png) repeat-x;
+ margin-top: 15px;
+ text-align: left;
+ font-size: 20px;
+ margin-top: 5px;
+ padding-top: 10px;
+ padding-left: 15px;
+ color: #fff;
+}
+.bo2 li:nth-of-type(1) .zo2 h3{
+margin-top: 5px;
+}
+time,.zo2-1 p{
+color: #6c3a24;
+padding-left: 15px;
+}
+.zo2 h3.pato{
+background: url(../img/go.2.png) repeat-x;
+}
+/*.titi***************************************************************************/
+.titi img{
+max-width: 824px;
+}
+.titi h1 .parent{
+float: left;
+}
+.titi h1{
+ margin: 50px 0 20px;
+ color: #6c3a24;
+}
+.titi h1 .child{
+float: right;
+color: #fff;
+font-size: 20px;
+padding: 10px 20px;
+background: #ffb500;
+border-radius: 20px;
+}

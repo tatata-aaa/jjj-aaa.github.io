@@ -1,0 +1,307 @@
+
+.saredo {
+  /*position: absolute;
+  top: 340px;
+  left: 50%;
+  margin-left: -40px;*/
+  padding: 3px 5px;
+  font-size: 13px;
+  display: inline-block;
+  
+  height: 16px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 16px;
+  outline: none;
+}
+.saredo::before,
+.saredo::after {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  content: '';
+}
+.,
+.saredo::before,
+.saredo::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.saredo {
+  background-color: #B1865B;
+  border: 2px solid #B1865B;
+  border-radius: 4px;
+  color: #fff !important;
+  line-height: 16px;
+}
+.saredo:hover {
+  background-color: #fff;
+  border-color: #B1865b;
+  border-radius: 4px;
+  color: #B1865b !important;
+}
+.saredo::before,
+.saredo::after {
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #333;
+}
+.saredo::before {
+  right: 0;
+}
+.saredo::after {
+  left: 0;
+}
+.saredo:hover::before,
+.saredo:hover::after {
+  width: 0;
+  background-color: #59b1eb;
+}
+#footer .azuma{
+  display: none;
+}
+.ao30{
+display: none;
+}
+h2{
+ width: auto;
+ height: 30px;
+ margin: 0 auto;
+ margin-bottom: 30px;
+ font-size: 18px;
+ text-align: center;
+}
+@media screen and (max-width: 400px){
+.do3 dl{
+
+height: 65px;
+
+box-sizing: border-box;
+}
+.do3 dl dt img{
+ width: 50px;
+ height: 50px;
+ margin-top: 0px;
+}
+}
+@media screen and (min-width: 401px) and (max-width: 639px){
+.do3 dl{
+width: 80%;
+margin-left: 10%;
+height: 60px;
+padding: 5px 0px 5px 40px;
+box-sizing: border-box;
+}
+.do3 dl dt img{
+ width: 50px;
+ height: 50px;
+ margin-top: -5px;
+}
+}
+@media screen and (max-width: 639px){
+.do2-2{
+display: block;
+width: 300px;
+margin: 50px auto;
+}
+
+.do2-1, .do2{
+display: none;
+}
+.do3{
+position: relative;
+margin-bottom: 50px;
+height: 500px;
+}
+
+.do3 dl dt{
+float: left;
+width: 70px;
+}
+.do3 dl dd{
+margin-left: 70px;
+font-size: 12px;
+}
+.do3 dl dd .none{
+float: right;
+width: 100%;
+margin-left: -70px;
+}
+.do3 .readmore a{
+position: absolute;
+top: 340px;
+left: 50%;
+margin-left: -40px;
+
+
+font-size: 13px;
+font-weight: bold;
+
+border-radius: 5px;
+}
+.do3 .readmore a:hover{
+
+
+border-radius: 5px;
+}
+.do3 ul li dl:hover{
+opacity: 0.5;
+margin-left: 10px;
+transition: all 1s;
+}
+
+}
+@media screen and (min-width: 640px){
+.do2-1{
+display: block;
+}
+.do2-2, .do2{
+display: none;
+}
+.do3{
+position: relative;
+}
+.do3 dl{
+
+height: 70px;
+padding: 5px 40px;
+box-sizing: border-box;
+}
+.do3 dl dt img{
+ width: 50px;
+ height: 50px;
+ 
+}
+.do3 dl dt{
+float: left;
+width: 70px;
+}
+.do3 dl dd{
+margin-left: 70px;
+font-size: 12px;
+}
+.do3 dl dd .none{
+float: right;
+width: 100%;
+margin-left: -70px;
+}
+.do3 .readmore a{
+position: absolute;
+top: 470px;
+right: 4%;
+
+font-size: 13px;
+font-weight: bold;
+width: 90px;
+border-radius: 5px;
+}
+.do3 .readmore a:hover{
+
+border-radius: 5px;
+}
+.do3 ul li dl:hover{
+opacity: 0.5;
+margin-left: 10px;
+transition: all 1s;
+}
+.do1{
+ width: 90%;
+ margin-left: 5%;
+height: 570px;
+}
+.do2-1{
+width: 50%;
+float: left;
+}
+.do2-1-1{
+width: 300px;
+margin: 0 auto;
+}
+.do2-1 img{
+ width: 300px;
+ margin: 0 auto;
+}
+.do3{
+float: right;
+width: 50%;
+}
+}
+@media screen and (min-width: 1050px){
+.do2{
+display: block;
+}
+.do2-1, .do2-2{
+display: none;
+}
+.do1{
+max-width: 1050px;
+margin: 0 auto;
+height: 536px;
+}
+.do2 h2{
+margin-bottom: 43px;
+}
+.do2{
+ width: 500px;
+ float: left;
+
+}
+.do3 a{
+ color: #6c3a24;
+}
+.do3 h2{
+ margin-bottom: 43px;
+}
+.do3{
+width: 430px;
+float: right;
+position: relative;
+}
+.do3 dl{
+
+height: 70px;
+padding: 5px 0 5px 40px;
+box-sizing: border-box;
+}
+.do3 dl dt img{
+ width: 50px;
+ height: 50px;
+ margin-top: -5px;
+}
+.do3 dl dt{
+float: left;
+width: 70px;
+}
+.do3 dl dd{
+margin-left: 70px;
+font-size: 12px;
+}
+.do3 dl dd .none{
+float: right;
+width: 100%;
+margin-left: -70px;
+}
+.do3 .readmore a{
+position: absolute;
+top: 350px;
+right: 4%;
+
+font-size: 13px;
+font-weight: bold;
+
+border-radius: 5px;
+}
+.do3 .readmore a:hover{
+
+border-radius: 5px;
+}
+.do3 ul li dl:hover{
+opacity: 0.5;
+margin-left: 10px;
+transition: all 1s;
+}
+}
