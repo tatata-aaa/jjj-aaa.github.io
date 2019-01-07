@@ -280,6 +280,25 @@ color: #fff;
 text-shadow: 2px 2px 2px #ffb432;
 }
 }
+
+.pink{
+background: #fff !important;
+background-size: 100%;
+height: auto;
+width: 100%;
+}
+.pink a{
+color: #6c3a24 !important;
+text-shadow: 2px 2px 2px #fff;
+font-weight: bold;
+}
+@media screen and (min-width: 640px) and (max-width: 1049px){
+.pink a{
+color: #6c3a24 !important;
+text-shadow: 2px 2px 2px #fff;
+font-weight: bold;
+}
+}
 @media screen and (min-width: 1050px){
 ul.large li a:hover{
  background: none !important;
@@ -304,23 +323,5 @@ background-position: 50% 5px !important;
 .select a{
 color: #fff !important;
 text-shadow: 2px 2px 2px #6c3a24;
-}
-}
-.pink{
-background: #fff !important;
-background-size: 100%;
-height: auto;
-width: 100%;
-}
-.pink a{
-color: #6c3a24 !important;
-text-shadow: 2px 2px 2px #fff;
-font-weight: bold;
-}
-@media screen and (min-width: 640px) and (max-width: 1049px){
-.pink a{
-color: #6c3a24 !important;
-text-shadow: 2px 2px 2px #fff;
-font-weight: bold;
 }
 }
