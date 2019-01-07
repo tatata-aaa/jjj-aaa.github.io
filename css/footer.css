@@ -173,19 +173,6 @@ color: #fff;
 .text{
 display: none;
 }
-.bobo9{
- position: fixed;
- bottom: 5%;
- right: 2%;
- width: 12%;
- height: 8.8%;
- min-width: 50px;
- min-height: 40px;
-}
-.bobo9 img{
- width: 100%;
- height: 100%;
-}
 }
 @media screen and (min-width: 640px) and (max-width: 1049px){
 .daimei{
@@ -385,17 +372,6 @@ position: absolute;
 left: 50%;
 margin-left: -125px;
 }
-.bobo9{
- position: fixed;
- bottom: 60px;
- right: 30px;
- width: 75px;
- height: 60px;
-}
-.bobo9 img{
- width: 100%;
- height: 100%;
-}
 }
 @media screen and (min-width: 1050px){
 /*footer 1050px--------------------------------------------------------------------*/
@@ -579,11 +555,59 @@ text-align: center;
 .footer2 small{
 color: #fff;
 }
-.bobo9{
- position: fixed;
- bottom: 100px;
- right: 50px;
- width: 100px;
- height: 80px;
+}
+@media screen and (max-width: 1049px){
+.menu2 dd.active, .menu3 dd.active{
+ background: #6c3a24;
+}
+.menu2 dd.active a, .menu3 dd.active a{
+color: #fff;
+text-shadow: 2px 2px 2px #ffb432;
+}
+}
+@media screen and (min-width: 1050px){
+.menu2 dd.active a, .menu3 dd.active a{
+color: #fff;
+text-shadow: 2px 2px 2px #6c3a24;
+}
+}
+@media screen and (min-width: 1050px){
+.menu3 dd:nth-of-type(8){
+ text-indent: 100%;
+ overflow: hidden;
+ white-space: nowrap;
+}
+}
+.bobo9 img{
+width: 100%;
+height: 100%;
+}
+@media screen and (max-width: 639px){
+.bobo9 {
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    width: 12%;
+    height: 8.8%;
+    min-width: 50px;
+    min-height: 40px;
+}
+}
+@media screen and (max-width: 1049px) and (min-width: 640px){
+.bobo9 {
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    width: 75px;
+    height: 60px;
+}
+}
+@media screen and (min-width: 1050px){
+.bobo9 {
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    width: 100px;
+    height: 80px;
 }
 }
