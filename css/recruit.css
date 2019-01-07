@@ -279,10 +279,11 @@ height: 200px;
  width: 90%;
 }
 form .text-center{
- width: 450px;
+ width: 225px;
  margin: 30px auto;
  height: 200px;
 }
+
 }
 /*button----------------------------------------------------------------------------*/
 form button {
@@ -436,3 +437,14 @@ button#kakunin:active::after {
   border: none;
   box-shadow: none;
   }
+
+#kom li dt span{
+ padding: 0px 4px;
+ background: #b1865b;
+ color: #fff;
+ font-size: 15px;
+ border-radius: 5px;
+ position: relative;
+ top: -3px;
+ left: 2px;
+ }

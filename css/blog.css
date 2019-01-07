@@ -18,6 +18,20 @@ height: 15px;
 @media screen and (min-width: 411px){
 
 }
+@media screen and (max-width: 486px){
+.all_area {
+    text-align: center;
+    height: auto;
+    margin-top: 30px;
+}
+}
+@media screen and (max-width: 640px) and (min-width: 487px){
+.all_area {
+    text-align: center;
+    height: auto;
+    margin-top: 30px;
+}
+}
 @media screen and (min-width: 411px) and (max-width: 639px){
 time{
 margin-top: -20px !important;
@@ -34,7 +48,15 @@ height: 0px;
 }
 }
 @media screen and (max-width: 639px){
+.tab_area1 #first{
+ text-indent: 100%;
+ overflow: hidden;
+ white-space: nowrap;
+}
 
+.fo1-1{
+display: none !important;
+}
 
 .fo1 .kiko ul.child1 li{
 background: #6c3a24;
@@ -88,9 +110,78 @@ text-shadow: 2px 2px 2px #ddd;
 }
 }
 @media screen and (min-width: 640px){
-.kiko{
-display: none;
+.index2 .tab_area1 .t1{
+ margin-left: 0%;
 }
+.fo1-1{
+display: none !important;
+}
+.child1 li a{
+color: #6c3a24;
+}
+.child1{
+display: block;
+width: 90%;
+margin-left: 5%;
+}
+.child1 li{
+width: 20%;
+height: 41px;
+margin-left: 0px;
+float: left;
+}
+.fo1-1 li{
+ margin-bottom: 41px;
+ float: none;
+ height: 110px;
+}
+.fo1-1 li:nth-of-type(2){
+height: 110px;
+}
+.koki a h2{
+background: url(../img/fo1.png) no-repeat;
+font-size: 15px;
+text-align: center;
+padding-top: 10px;
+font-weight: bold;
+box-sizing: border-box;
+text-shadow: 2px 2px 2px #6c3a24;
+float: left;
+}
+.child1 li{
+font-size: 15;
+font-weight: bold;
+padding-top: 11px;
+text-align: center;
+border-bottom: 0.5px solid #6c3a24;
+border-top: 0.1px solid #6c3a24;
+border-right: 0.5px solid #6c3a24;
+box-sizing: border-box;
+background: #F0E680;
+float: left;
+
+}
+
+.fo1-1 li:nth-of-type(1) dd a{
+ width: 19%;
+ height: 41px;
+ padding: 11px 30%;
+}
+.fo1-1 li:nth-of-type(2) dd a{
+ width: 19%;
+ height: 41px;
+ padding: 11px 10%;
+}
+.fo1-1 li:nth-of-type(3) dd a{
+ width: 19%;
+ height: 41px;
+ padding: 11px 10%;
+}
+.fo1-1 li dd:hover{
+ background: #ffb432;
+ transition: all 1s;
+ text-shadow: 2px 2px 2px #ddd;
+ }
 }
 @media screen and (min-width: 1050px){
 /*index2 1050px-------------------------------------------------------------------------*/
@@ -112,18 +203,45 @@ margin-top: 30px;
 .bo2 li:nth-of-type(1) .zo2 h3{
  margin-top: 5px;
 }
+
+.index2 .zo1 {
+width: 236px;
+float: left;
+margin-right: 15px;
+margin-bottom: 15px;
+height: 221px;
+margin-top: 8px;
 }
-@media screen and (max-width: 1039px) and (min-width: 640px){
+.index2 .all_area{
+position: relative;
+}
+.tab_area1 dt:nth-of-type(1) {
+top: -16px;
+left: 0;
+position: absolute;
+margin-top: 0px;
+}
+.tab_area1 .t1 {
+margin-top: 24px;
+}
+}
+@media screen and (max-width: 1049px) and (min-width: 640px){
 .zo1 {
-    margin-top: 0px;
+    margin-top: -25px;
 }
 .bo2 li:nth-of-type(1) .zo2 h3{
  margin-top: -10px;
 }
+.content_area li{
+height: 30vw;
+}
+.index2 .all_area {
+ height: auto;
+}
 }
 @media screen and (max-width: 639px){
 .zo1 {
- margin-top: 0px;
+ margin-top: -20px;
 }
 }
 @media screen and (max-width: 639px) and (min-width: 401px){
@@ -159,8 +277,8 @@ height: 900px;
 .index20 h1{
  width: 715px;
  margin: 0px auto 30px;
- height: 38px;
- background: url(../img/go.2.png);
+ height: 32px;
+ background: url(../img/blog1.png) repeat-x;
  font-size: 20px;
  padding-top: 9px;
  text-align: center;
@@ -205,8 +323,8 @@ time{
 .index20 h1{
  width: 100%;
  margin: 0px auto 30px;
- height: 38px;
- background: url(../img/go.2.png);
+ 
+ background: url(../img/blog1.png);
  font-size: 20px;
  padding-top: 9px;
  text-align: center;
@@ -249,8 +367,8 @@ time{
 .index20 h1{
  width: 100%;
  margin: 0px auto 30px;
- height: 38px;
- background: url(../img/go.2.png);
+
+ background: url(../img/blog1.png);
  font-size: 20px;
  padding-top: 9px;
  text-align: center;
@@ -283,5 +401,260 @@ time{
  background: ;
  margin: 0px auto 50px;
  padding-top: 50px;
+}
+}
+/*menuのところ　639px----------------------------------------------------------------*/
+@media screen and (max-width: 639px){
+.kiko{
+display: none
+}
+
+dt{
+display: block;
+margin: 30px auto 10px;
+text-align: center;
+font-weight: bold;
+font-size: 18px;
+color: #6c3a24;
+}
+.tab_area{
+overflow:hidden;
+margin:0;
+width: 90%;
+margin: 0 auto 80px;
+margin-left: 5%;
+
+}
+
+.tab_area li{
+/*Tabの装飾*/
+width: 33.3333%;
+box-sizing: border-box;
+height:41px; 
+text-align:center; 
+border-right: 1px solid #909090;
+cursor: pointer; 
+ 
+padding-top: 10px;
+float: left;
+}
+.tab_area li:nth-of-type(1){
+border-left: 1px solid #909090;
+}
+.tab_area li a{
+color: #fff;
+margin-top: 2vw;
+}
+.tab_area li:nth-of-type(2n+1){
+color:#fff;
+background-color:#ffb432;
+}
+.tab_area li:nth-of-type(2n){
+color:#fff;
+background-color:#f0e680;
+}
+.all_area { 
+
+padding:10px; 
+overflow: hidden;
+}
+.tab_area li:nth-of-type(8),.tab_area2 li:nth-of-type(9){
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+}
+.all_area div.content_area{
+/*Tabの内容を表示するエリアの装飾*/
+background:#ffffff; 
+padding:10px 10px 10px 2px;  
+
+}
+ 
+.tab_area li.select{
+/*アクティブタブの装飾*/
+background-color:#ffffff; 
+background-image:none; 
+color: #6c3a24;
+border-top:2px solid #6c3a24;
+}
+.tab_area li.select a{
+color: #6c3a24;
+}
+
+.hide{display:none;
+}
+}
+/*menuのところ　640px----------------------------------------------------------------*/
+@media screen and (min-width: 640px) and (max-width: 1049px){
+.kiko{
+display: none;
+}
+dt{
+display: block;
+margin: 30px auto 10px;
+text-align: center;
+font-weight: bold;
+font-size: 18px;
+color: #6c3a24;
+}
+.tab_area{
+overflow:hidden;
+display:table;
+margin:0;
+width: 90%;
+margin: 0 auto 80px;
+
+}
+
+.tab_area li{
+/*Tabの装飾*/
+width:114px; 
+height:41px; 
+text-align:center; 
+border-right: 1px solid #909090;
+cursor: pointer; 
+vertical-align:middle; 
+display:table-cell;  
+}
+.tab_area li:nth-of-type(1){
+border-left: 1px solid #909090;
+}
+.tab_area li a{
+color: #fff;
+}
+.tab_area li:nth-of-type(2n+1){
+color:#fff;
+background-color:#ffb432;
+}
+.tab_area li:nth-of-type(2n){
+color:#fff;
+background-color:#f0e680;
+}
+.all_area { 
+
+padding:10px; 
+overflow: hidden;
+}
+
+.all_area div.content_area{
+/*Tabの内容を表示するエリアの装飾*/
+background:#ffffff; 
+padding:10px 10px 10px 2px;  
+
+}
+ 
+.tab_area li.select{
+/*アクティブタブの装飾*/
+background-color:#ffffff; 
+background-image:none; 
+color: #6c3a24;
+border-top:2px solid #6c3a24;
+}
+.tab_area li.select a{
+color: #6c3a24;
+}
+
+.hide{display:none;
+}
+}
+/*menuのところ 1050px----------------------------------------------------------------*/
+@media screen and (min-width: 1050px){
+.kiko{
+display: none;
+}
+.tab_area1{
+display: inline-block;
+width: 234px;
+}
+dd{
+margin-left: 0px;
+}
+.tab_area1 li a{
+/*color: #6c3a24;*/
+color: #fff;
+}
+.tab_area1 .select a{
+color: #6c3a24;
+}
+.tab_area1 .select{
+ border-bottom: 3px solid #6c3a24;
+ padding-top: 7px;
+}
+.tab_area1 li{
+ width: 235px;
+ display: block;
+ padding-top: 10px;
+ height: 41px;
+ background: #F0E680;
+
+}
+.tab_area1 li, .fo1-1 dt{
+width: 100%;
+height: 41px;
+}
+
+.tab_area1 dt{
+background: url(../img/fo1.png) no-repeat;
+font-size: 20px;
+text-align: center;
+padding-top: 10px;
+font-weight: bold;
+box-sizing: border-box;
+text-shadow: 2px 2px 2px #6c3a24;
+}
+.tab_area1 li{
+font-size: 18px;
+padding-top: 11px;
+text-align: center;
+border-bottom: 0.5px solid #6c3a24;
+border-left: 0.5px solid #6c3a24;
+border-right: 0.5px solid #6c3a24;
+border-radius: border-box;
+background: #F0E680;
+}
+.tab_area1 li:hover{
+background: #fff;
+text-shadow: 2px 2px 2px #ddd;
+font-weight: bold;
+}
+}
+@media screen and (max-width: 486px){
+.t8, .t9, .t10, .t11 {
+    position: relative;
+    margin-left: 0%;
+    top: -0px;
+}
+}
+@media screen and (max-width: 640px) and (min-width: 487px){
+.t8, .t9, .t10, .t11 {
+    position: relative;
+    top: 0;
+    margin-left: 0;
+
+}
+}
+@media screen and (min-width: 640px){
+.index20 .tab_area1 .t1 {
+    margin-left: 0%;
+}
+}
+@media screen and (max-width: 1049px) and (min-width: 640px){
+.index20 .tab_area li {
+    width: 114px;
+    height: 41px;
+    text-align: center;
+    border-right: 1px solid #909090;
+    cursor: pointer;
+    vertical-align: middle;
+    display: table-cell;
+}
+.index20 .all_area{
+   height: auto;
+}
+}
+@media screen and (min-width: 1050px){
+.index2 .zo1 img{
+width: 100%;
+height: 100%;
 }
 }
