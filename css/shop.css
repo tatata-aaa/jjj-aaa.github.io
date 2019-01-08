@@ -28,7 +28,7 @@
   display: block;
   content: '';
 }
-.,
+
 .saredo::before,
 .saredo::after {
   -webkit-box-sizing: border-box;
@@ -168,7 +168,7 @@ color: #6c3a24;
 }
 @media screen and (max-width: 400px){
 .eo4 dl{
-width: 100%;
+width: 95%;
 margin: 0 auto;
 height: 65px;
 
@@ -181,13 +181,17 @@ box-sizing: border-box;
  border: 0.2px solid #fff;
  margin-top: -5px;
 }
+.eo4 dl:hover{
+ margin-left: 5%;
+ transition: all 1s;
+}
 }
 @media screen and (min-width: 401px) and (max-width: 639px){
 .eo4 dl{
-width: 90%;
+width: 100%;
 margin: 0 auto;
 height: 60px;
-padding: 5px 0px 5px 40px;
+padding: 5px 5px 5px 35px;
 
 box-sizing: border-box;
 }
@@ -198,12 +202,14 @@ box-sizing: border-box;
  border: 0.2px solid #fff;
  margin-top: 0px;
 }
-}
-@media screen and (max-width: 639px){
 .eo4 dl:hover{
- margin-left: 10px;
+ padding-left: 40px;
+ padding-right: 0px;
  transition: all 1s;
 }
+}
+@media screen and (max-width: 639px){
+
 
 .eo4 dl dt{
 float: left;

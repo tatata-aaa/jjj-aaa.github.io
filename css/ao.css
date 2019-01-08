@@ -23,7 +23,7 @@ color: #6c3a24;
   display: block;
   content: '';
 }
-.,
+
 .saredo::before,
 .saredo::after {
   -webkit-box-sizing: border-box;
@@ -162,10 +162,20 @@ height: 60px;
 padding: 5px 10px;
 box-sizing: border-box;
 }
+.ao3 ul li dl:hover{
+opacity: 0.5;
+margin-left: 10px;
+transition: all 1s;
+}
 .ao4 dl{
 height: 60px;
 padding: 5px 10px;
 box-sizing: border-box;
+}
+.ao4 ul li dl:hover{
+opacity: 0.5;
+margin-left: 10px;
+transition: all 1s;
 }
 }
 @media screen and (max-width: 639px) and (min-width: 401px) {
@@ -176,12 +186,24 @@ height: 60px;
 padding: 5px 40px;
 box-sizing: border-box;
 }
+.ao3 ul li dl:hover{
+opacity: 0.5;
+padding-left: 50px;
+padding-right: 30px;
+transition: all 1s;
+}
 .ao4 dl{
 width: 80%;
 height: 50px;
 margin: 0 auto;
 padding: 5px 40px;
 box-sizing: border-box;
+}
+.ao4 ul li dl:hover{
+opacity: 0.5;
+padding-left: 50px;
+padding-right: 30px;
+transition: all 1s;
 }
 }
 @media screen and (max-width: 639px){
@@ -235,11 +257,7 @@ border-radius: 5px;
 }
 */
 
-.ao3 ul li dl:hover{
-opacity: 0.5;
-margin-left: 10px;
-transition: all 1s;
-}
+
 .ao4{
  width: 100%;
  float: left;
@@ -268,11 +286,7 @@ width: 100%;
 margin-left: -70px;
 }
 
-.ao4 ul li dl:hover{
-opacity: 0.5;
-margin-left: 10px;
-transition: all 1s;
-}
+
 
 .ao6{
 width: 90vw;
