@@ -65,10 +65,10 @@ padding: 0;
  height: 50px;
 }
 #kom li:nth-of-type(2n+1){
- background: #f0e680;
+ background: #FFDDA1;
 }
 #kom li:nth-of-type(2n){
- background: #ffb432;
+ background: #F8F4C5;
 }
 #kom .ton6{
  height: 150px;
